@@ -1,6 +1,6 @@
 <?php
 
-namespace fakethinkpad85\LikeSearch\Extend;
+namespace fakethinkpad85\LikeSearch;
 
 use Flarum\Extend;
 use Flarum\Discussion\Search\Gambit\FulltextGambit;
