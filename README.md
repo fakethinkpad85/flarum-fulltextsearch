@@ -1,13 +1,30 @@
-# Like Search Extension for Flarum
+# Flarum Like Search
 
-This extension allows searching discussions and posts using the LIKE operator instead of the MATCH operator, enabling partial matches in titles and content.
+A Flarum extension that improves the default search functionality by implementing LIKE-based search, allowing for partial word matches.
+
+## Features
+
+- Partial word matching in discussion titles and content
+- Maintains proper sorting by creation date
+- Fully integrated with Flarum's search system
+- No configuration needed
 
 ## Installation
 
-1. Clone the repository into your Flarum extensions directory.
-2. Run `composer install` in the extension directory.
-3. Enable the extension in the Flarum admin panel.
+Install with composer:
+
+```bash
+composer require fakethinkpad85/flarum-fulltextsearch
+```
 
 ## Usage
 
-Once enabled, you can search for discussions and posts using partial keywords.
+Simply use the search box as normal. The extension will automatically enable partial word matching.
+
+For example:
+- Searching for "prog" will find discussions containing "programming"
+- Searching for "tech" will find discussions containing "technology"
+
+## License
+
+This extension is licensed under the MIT License. See [License File](LICENSE) for more information.

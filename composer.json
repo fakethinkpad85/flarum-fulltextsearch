@@ -1,13 +1,26 @@
 {
-    "name": "fakethinkad85/flarum-fulltextsearch",
+    "name": "fakethinkpad85/flarum-fulltextsearch",
+    "description": "Enables fulltext search in Flarum, instead of using whole word matching this allows part-word matches.",
     "version": "1.0.0",
     "type": "flarum-extension",
     "require": {
         "flarum/core": "^1.0"
     },
+    "authors": [
+        {
+            "name": "Christian Persson",
+            "email": "fakethinkpad85@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/fakethinkpad85/flarum-fulltextsearch/issues",
+        "source": "https://github.com/fakethinkpad85/flarum-fulltextsearch",
+        "docs": "https://github.com/fakethinkpad85/flarum-fulltextsearch"
+    },
     "autoload": {
         "psr-4": {
-            "fakethinkad85\\LikeSearch\\": "src/"
+            "fakethinkpad85\\LikeSearch\\": "src/"
         }
     },
     "extra": {
